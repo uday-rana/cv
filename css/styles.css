@@ -1,0 +1,43 @@
+body {
+  background-color: #F9F3DF;
+}
+
+hr {
+  width: 3%;
+  border-style: dotted none none;
+  border-color: #F76B8A;
+  border-width: 5px;
+}
+
+h1, h3 {
+  color: #66BFBF;
+  font-family: Helvetica, Calibri, sans-serif;
+}
+
+/*text-decoration not part of course*/
+a:link, a:visited {
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: #F76B8A;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.button:link, .button:visited {
+  background-color: #66BFBF;
+  color: white;
+  display: inline-block;
+  padding: 15px 32px;
+  font-size: 16px;
+}
+
+.button:hover, .button:active, .button:focus {
+  background-color: #F76B8A;
+  color: white;
+  display:inline-block;
+  padding: 15px 32px;
+  font-size: 16px;
+}
